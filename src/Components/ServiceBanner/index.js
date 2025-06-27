@@ -1,17 +1,13 @@
+import SectionHeader from '../SectionHeader'
 import './ServiceBanner.css'
 
 const ServiceBanner = () => {
     return (
         <section className='section-service-banner'>
-            <header>
-                <h1>Serviços</h1>
-                <p>
-                    Do planejamento à execução, oferecemos soluções completas e personalizadas
-                     para transformar ideias em realidade. <strong> Combinamos tecnologia, inovação e 
-                     expertise para entregar projetos com excelência, eficiência e compromisso 
-                     com cada detalhe.</strong> Descubra tudo o que podemos fazer por você.
-                </p>
-            </header>
+            <SectionHeader 
+                title={'Serviços'} 
+                paragraph={'Do planejamento à execução, oferecemos soluções completas e personalizadas para transformar ideias em realidade. Combinamos tecnologia, inovação e expertise para entregar projetos com excelência, eficiência e compromisso com cada detalhe. Descubra tudo o que podemos fazer por você.'}
+            />
             <div className='service-banners'>
                 <a className='banners' href='#'>
                         <h2>Execução e Adm. de Obras</h2>
