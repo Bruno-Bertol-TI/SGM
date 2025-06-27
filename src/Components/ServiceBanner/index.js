@@ -6,25 +6,25 @@ const ServiceBanner = () => {
             <header>
                 <h1>Serviços</h1>
                 <p>
-                    Da concepção à execução, oferecemos soluções completas e personalizadas
-                     para transformar ideias em realidade. Combinamos tecnologia, inovação e 
+                    Do planejamento à execução, oferecemos soluções completas e personalizadas
+                     para transformar ideias em realidade. <strong> Combinamos tecnologia, inovação e 
                      expertise para entregar projetos com excelência, eficiência e compromisso 
-                     com cada detalhe. Descubra tudo o que podemos fazer por você.
+                     com cada detalhe.</strong> Descubra tudo o que podemos fazer por você.
                 </p>
             </header>
             <div className='service-banners'>
-                <div className='banners'>
-                    <h2>Execução e Adm. de Obras</h2>
-                    <img src='/img/service_banners/Execution-banner-and-mgmt.jpg' alt='' />
-                </div>
-                <div className='banners'>
-                    <h2>Design de Interiores</h2>
-                    <img src='/img/service_banners/interior-service-banner.png' alt='' />
-                </div>
-                <div className='banners'>
-                    <h2>Todos Serviços</h2>
-                    <img src='/img/service_banners/banner-of-all-services.jpg' alt='' />
-                </div>
+                <a className='banners' href='#'>
+                        <h2>Execução e Adm. de Obras</h2>
+                        <img src='/img/service_banners/Execution-banner-and-mgmt.png' alt='' />
+                </a>
+                <a className='banners' href='#'>
+                        <h2>Design de Interiores</h2>
+                        <img src='/img/service_banners/interior-service-banner.png' alt='' />
+                </a>
+                <a className='banners' href='#'>
+                        <h2>Todos Serviços</h2>
+                        <img src='/img/service_banners/banner-of-all-services.jpg' alt='' />
+                </a>
             </div>
         </section>
     )
