@@ -1,0 +1,36 @@
+.header {
+    background-color: #8091B5;
+    padding: 10px 40px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+    width: 150px;
+}
+
+.logo img{
+    align-items: center;
+    width: 150px;
+}
+
+.header ul {
+    display: flex;    
+    gap: 15px;
+}
+
+.header li {
+    list-style: none;
+    text-shadow: 2px 2px 5px #2D3C59;
+}
+
+.header li:hover {
+    color: #364A73;
+    list-style: none;
+}
+
