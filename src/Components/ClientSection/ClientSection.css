@@ -1,0 +1,5 @@
+.section-client {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3F5;
+}
