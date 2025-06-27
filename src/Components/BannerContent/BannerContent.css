@@ -1,0 +1,35 @@
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-radius: 10px;
+  z-index: 2;
+  max-width: 40%;
+}
+
+.carousel-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-content button {
+  padding: 0.6rem 1.2rem;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carousel-content button:hover {
+  background: #dddddd;
+}
