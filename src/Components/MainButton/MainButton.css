@@ -1,0 +1,8 @@
+.component-button {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.component-button button {
+    width: 100%;
+}
