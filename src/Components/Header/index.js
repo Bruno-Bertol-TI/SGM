@@ -5,7 +5,7 @@ const Header = () => {
         <header className='header'>
             <nav>
                 <div className='logo'>
-                    <img src='/img/logo/image2.png' alt='Logotipo SGM'/>
+                    <h1>Silvana Bertol</h1>
                 </div>
                 <ul>
                     <li>
@@ -20,7 +20,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a>
-                            Sobre Nós
+                            História
                         </a>
                     </li>
                 </ul>
