@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .header {
-    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #A67244;
     padding: 10px 40px;
 }
 
 .header nav {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -19,13 +28,12 @@
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
-    color: #9C6236;
+    color: #000000;
 }
 
-/* .logo img{
-    align-items: center;
-    width: 150px;
-} */
+.logo:hover {
+    color: #ffffff;
+}
 
 .header ul {
     display: flex;    
@@ -34,14 +42,24 @@
 
 .header li {
     font-size: 18px;
-    color: #9C6236;
+    color: #000000;
     cursor: pointer;
     list-style: none;
     text-shadow: 2px 2px 5px #9C6236;
 }
 
 .header li:hover {
-    color: #d66610;
+    color: #ffffff;
     list-style: none;
 }
 
+@media (max-width: 768px) {
+
+    .header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

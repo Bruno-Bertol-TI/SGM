@@ -2,9 +2,7 @@ import './MainButton.css'
 
 const MainButton = (props) => {
     return (
-        <div className='component-button'>
-            <button>{props.buttonName}</button>
-        </div>
+            <button className='component-button'>{props.buttonName}</button>
     )
 }
 

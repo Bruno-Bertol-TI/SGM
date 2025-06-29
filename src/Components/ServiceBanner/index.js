@@ -12,14 +12,17 @@ const ServiceBanner = () => {
                 <a className='banners' href='#'>
                         <h2>Execução e Adm. de Obras</h2>
                         <img src='/img/service_banners/Execution-banner-and-mgmt.png' alt='' />
+                        <div className='overlay'/>
                 </a>
                 <a className='banners' href='#'>
                         <h2>Design de Interiores</h2>
                         <img src='/img/service_banners/interior-service-banner.png' alt='' />
+                        <div className='overlay'/>
                 </a>
                 <a className='banners' href='#'>
                         <h2>Todos Serviços</h2>
                         <img src='/img/service_banners/banner-of-all-services.jpg' alt='' />
+                        <div className='overlay'/>
                 </a>
             </div>
         </section>
