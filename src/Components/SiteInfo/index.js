@@ -1,3 +1,4 @@
+import ContactForm from '../ContactForm'
 import './SiteInfo.css'
 
 const SiteInfo = () => {
@@ -8,7 +9,7 @@ const SiteInfo = () => {
                     {/* Links */}
                 </div>
                 <div className='contact'>
-                    {/* Forms */}
+                    <ContactForm/>
                 </div>
             </div>
             <div className='container-faq'>
