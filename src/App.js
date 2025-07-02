@@ -3,6 +3,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import HistorySection from "./Components/HistorySection";
 import ServiceBanner from "./Components/ServiceBanner";
+import SiteInfo from "./Components/SiteInfo";
 
 function App() {
   
@@ -21,17 +22,19 @@ function App() {
         <ServiceBanner/>
         <HistorySection/>
       </main>
-      
-      <Footer 
-        footerDescription={
-          '© 2025 Silvana Bertol Arquiteta ·\
-           Projetos personalizados com criatividade e técnica ·\
-            Todos os direitos reservados ·\
-             Site desenvolvido por ' 
-        }
-        developerLink={`https://github.com/bruno-bertol-ti`}
-        developerName={`Bruno Bertol ·`}
-      />      
+      <footer>
+        <SiteInfo/>
+        <Footer 
+          footerDescription={
+            '© 2025 Silvana Bertol Arquiteta ·\
+             Projetos personalizados com criatividade e técnica ·\
+              Todos os direitos reservados ·\
+               Site desenvolvido por ' 
+          }
+          developerLink={`https://github.com/bruno-bertol-ti`}
+          developerName={`Bruno Bertol ·`}
+        /> 
+      </footer>     
     </div>
   )
 }
