@@ -1,0 +1,39 @@
+.privacy-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.privacy-links h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.privacy-links p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #666;
+}
+
+.privacy-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.privacy-links a:hover {
+  text-decoration: underline;
+}
+
+.privacy-links a:visited {
+  color: #0056b3;
+}
+
+.privacy-links a:focus {
+  outline: none;
+  color: #0056b3;
+}

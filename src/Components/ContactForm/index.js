@@ -7,7 +7,7 @@ const ContactForm = () => {
             <h2>
                 Fale Conosco
             </h2>
-            <form>
+            <form action='https://formspree.io/f/xjvjlqgk' method='POST' className='form-group'>
                 <label>Nome: </label>
                 <input type='text' name='name' />
                 <label>E-mail: </label>

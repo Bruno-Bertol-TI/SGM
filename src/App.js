@@ -15,26 +15,13 @@ function App() {
 
   
   return (
-    <div>
-      <Header/>
-      <main>
-        <ClientSection/>
-        <ServiceBanner/>
-        <HistorySection/>
-      </main>
-      <footer>
-        <SiteInfo/>
-        <Footer 
-          footerDescription={
-            '© 2025 Silvana Bertol Arquiteta ·\
-             Projetos personalizados com criatividade e técnica ·\
-              Todos os direitos reservados ·\
-               Site desenvolvido por ' 
-          }
-          developerLink={`https://github.com/bruno-bertol-ti`}
-          developerName={`Bruno Bertol ·`}
-        /> 
-      </footer>     
+    <div className="App">
+      <Header />
+      <ClientSection />
+      <ServiceBanner />
+      <SiteInfo />
+      <HistorySection />
+      <Footer />
     </div>
   )
 }

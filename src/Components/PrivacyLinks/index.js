@@ -3,10 +3,23 @@ import './PrivacyLinks.css';
 const PrivacyLinks = () => {
     return (
         <div className='privacy-links'>
-            <a href='/privacy-policy' className='privacy-link'>Privacy Policy</a>
-            <a href='/terms-of-service' className='privacy-link'>Terms of Service</a>
-            <a href='/cookie-policy' className='privacy-link'>Cookie Policy</a>
-            <a href='/data-protection' className='privacy-link'>Data Protection</a>
+            <ul className='privacy-links-list link-group'>
+                <li>
+                    <a href="https://www.example.com/privacy-policy" target="_blank" rel="noopener noreferrer">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.example.com/terms-of-service" target="_blank" rel="noopener noreferrer">
+                        Terms of Service
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.example.com/cookie-policy" target="_blank" rel="noopener noreferrer">
+                        Cookie Policy
+                    </a>
+                </li>
+            </ul>
         </div>
     );
 }
