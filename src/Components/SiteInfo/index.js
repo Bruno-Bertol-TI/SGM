@@ -1,4 +1,5 @@
 import ContactForm from '../ContactForm'
+import FAQSection from '../FAQSection'
 import PrivacyLinks from '../PrivacyLinks'
 import './SiteInfo.css'
 
@@ -14,7 +15,7 @@ const SiteInfo = () => {
                 </div>
             </div>
             <div className='container-faq'>
-                
+                <FAQSection/>
             </div>
         </section>
     )
